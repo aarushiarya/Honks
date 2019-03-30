@@ -32,35 +32,16 @@ body {
 
 header {
     background: rgba(255, 255, 255, 0.97);
-    border-radius: 0;
-    bottom: auto;
-    box-shadow: 0px 0px 0px 0px rgba(0,0,0,0.2);
-    flex: none;
-    height: auto;
-    justify-content: center;
     left: 0px;
     opacity: 1;
     padding: 16px 0px 16px 0px;
     position: fixed;
     right: 0px;
     top: 0px;
-    width: auto;
-    z-index: 2;
-    max-width: 100%;
 }
 
 .header-div {
-    background: rgba(0,0,0,0.0);
-    border-radius: 0;
-    flex: none;
-    flex-direction: row;
-    justify-content: space-between;
     margin: 0px 40px 0px;
-    overflow-x: auto;
-    overflow-y: hidden;
-    padding: 0px 0px 0px;
-    width: 1200px;
-    max-width: calc(100% - 80px);
 }
 
 .header-div1 {
@@ -81,136 +62,53 @@ header {
 }
 
 .one {
-    margin-top: 200px;
-    align-content: center;
-    align-items: center;
-    background: linear-gradient(135deg, #ffffff, #f5f5f5);
-    flex: none;
-    flex-direction: column;
-    flex-wrap: nowrap;
-    height: auto;
-    justify-content: flex-start;
-    margin: 0 0 0 0;
-    overflow-x: hidden;
-    overflow-y: auto;
     padding: 76px 0px 0px;
     width: 100%;
     max-width: 100%;
 }
 
 .one-div1 {
-   align-content: center;
-    align-items: center;
-    background: rgba(0,0,0,0.0);
-    flex: none;
-    flex-direction: column;
-    flex-wrap: nowrap;
-    height: auto;
-    justify-content: flex-start;
-    margin: 100px 40px 0px;
-    overflow-x: hidden;
-    overflow-y: auto;
-    padding: 0px 0px 0px;
-    width: 980px;
-    max-width: calc(100% - 80px);
+    margin: 100px 200px 0px;
 }
 
 .one-div1 h1 {
     color: #999999;
-    font-family: Lato;
     font-size: 26px;
-    font-weight: 700;
     height: auto;
     line-height: 1.4;
-    margin: 0px 0px 0px 0px;
-    text-align: left;
-    width: auto;
-    max-width: 100%;
-    justify-content: flex-start;
     margin-left: 300px;
 }
 
 .one-div1 h2 {
-    color: #111111;
-    flex: none;
-    font-family: Lato;
-    font-size: 118px;
-    font-style: normal;
-    font-weight: 900;
-    height: auto;
-    letter-spacing: 0em;
     line-height: 1;
-    margin: 20px 0px 0px 0px;
-    padding: 0px 0px 20px 0px;
+    font-size: 76px;
     text-align: center;
-    width: auto;
-    max-width: 100%;
-    justify-content: center;
 }
 
 .one-div1 p{
-    color: #333333;
-    flex: none;
-    font-family: Lato;
     font-size: 26px;
-    font-weight: 400;
-    height: auto;
-    letter-spacing: 0em;
     line-height: 1.4;
     text-align: center;
-    width: auto;
-    max-width: 100%;
-    justify-content: center;
 }
 
 .one-div1 div {
-    align-content: center;
-    align-items: center;
-    flex-direction: row;
-    flex-wrap: nowrap;
-    height: auto;
-    justify-content: center;
-    margin: 0px 0px 0px 0px;
     padding: 40px 0px 30px 0px;
-    max-width: 100%;
 }
 
 .one-div2 {
-    align-content: center;
-    align-items: center;
-    background: rgba(0,0,0,0.0);
-    flex: none;
-    flex-direction: column;
-    flex-wrap: nowrap;
-    height: auto;
-    justify-content: flex-end;
-    margin: 0px 40px 80px;
+    margin: 100px 200px 80px;
     width: 980px;
-    max-width: calc(100% - 80px);
 }
 
 .one-div2 h2{
-    color: #111111;
-    flex: none;
-    font-family: Lato;
-    font-size: 56px;
-    font-weight: 900;
-    height: auto;
     line-height: 1.2;
+    font-size: 76px;
     margin: 0px 0px 30px 0px;
     text-align: center;
-    width: auto;
-    max-width: 100%;
-    justify-content: center;
 }
 
 .one-div2 p {
-    olor: #333333;
-    flex: none;
-    font-family: Lato;
     font-size: 20px;
-    font-weight: 400;
-    height: auto;
     line-height: 1.8;
     padding: 0px 20px 0px;
     text-align: center;
@@ -218,15 +116,10 @@ header {
     max-width: 100%;
     justify-content: center;
 }
+
 .two {
-    align-content: center;
-    align-items: center;
     background: linear-gradient(90deg, #111111, #333333);
     background-color: #111111;
-    flex-direction: column;
-    flex-wrap: nowrap;
-    height: auto;
-    justify-content: flex-start;
     padding: 140px 0px 120px 0px;
     width: 100%;
     max-width: 100%;
@@ -234,59 +127,29 @@ header {
 
 .two h2 {
     color: #ffffff;
-    font-family: Lato;
     font-size: 48px;
-    font-weight: 700;
-    height: auto;
     line-height: 1.2;
     margin: 0px 0px 15px 0px;
     text-align: center;
-    width: auto;
-    max-width: 100%;
-    justify-content: center;
 }
 
 .two h3 {
     color: #FFFFFF;
-    font-family: Lato;
     font-size: 76px;
-    font-weight: 900;
-    height: auto;
     line-height: 1.1;
     margin: 0px 0px 0px 0px;
     padding: 0px 0px 20px 0px;
-    text-align: left;
-    width: auto;
-    max-width: 100%;
-    justify-content: flex-start;
 }
 
 .two p {
     color: #FFFFFF;
-    flex: none;
-    font-family: Lato;
     font-size: 22px;
-    font-weight: 400;
-    height: auto;
     line-height: 1.5;
     padding: 0px 0px 0px;
-    text-align: left;
-    width: 658px;
-    max-width: 100%;
-    justify-content: flex-start;
 }
 
 .left-div {
-    align-content: flex-start;
-    align-items: flex-start;
-    background: rgba(0,0,0,0.0);
-    border-radius: 4px;
-    flex: none;
-    flex-direction: column;
-    flex-wrap: nowrap;
-    height: auto;
-    justify-content: center;
-    margin: 0px 0px 0px;
+    margin: 0px 40px 0px 70px;
     overflow-x: auto;
     overflow-y: hidden;
     width: 30%;
@@ -296,15 +159,6 @@ header {
 }
 
 .center-div {
-    align-content: flex-start;
-    align-items: flex-start;
-    background: rgba(0,0,0,0.0);
-    border-radius: 4px;
-    flex: none;
-    flex-direction: column;
-    flex-wrap: nowrap;
-    height: auto;
-    justify-content: center;
     margin: 0px 0px 0px;
     overflow-x: auto;
     overflow-y: hidden;
@@ -315,15 +169,6 @@ header {
 }
 
 .right-div {
-    align-content: flex-start;
-    align-items: flex-start;
-    background: rgba(0,0,0,0.0);
-    border-radius: 4px;
-    flex: none;
-    flex-direction: column;
-    flex-wrap: nowrap;
-    height: auto;
-    justify-content: center;
     margin: 0px 0px 0px;
     overflow-x: auto;
     overflow-y: hidden;
@@ -334,131 +179,68 @@ header {
 }
 
 .two-div2 .bottom-div {
-    align-content: center;
-    align-items: center;
-    background: rgba(17, 17, 17, 0.5);
-    border-radius: 8px;
-    flex: none;
-    flex-direction: row;
-    flex-wrap: nowrap;
-    height: auto;
-    justify-content: center;
     margin: 60px 0px 0px 0px;
     overflow-x: hidden;
     overflow-y: hidden;
-    padding: 40px 0px 40px 60px;
+    padding: 40px 0px 40px 0px;
     width: 100%;
     max-width: 100%;
+    text-align: center;
 }
 
-.two-div2 h3 {
-    color: rgba(255, 255, 255, 0.8);
-    font-family: Lato;
-    font-size: 18px;
-    font-weight: 700;
-    height: auto;
-    line-height: 1.1;
-    margin: 0px 0px 0px 0px;
-    text-align: left;
-    width: auto;
-    max-width: 100%;
-    justify-content: flex-start;
-} 
 
-.two-div2 p{
-    color: #FFFFFF;
-    font-family: Lato;
+.left-div h3, .center-div h3, .right-div h3, .bottom-div h3 {
+    font-size: 30px;
+}
+
+.left-div p, .center-div p, .right-div p, .bottom-div p {
     font-size: 16px;
-    font-weight: 900;
-    height: auto;
-    line-height: 1.1;
-    margin: 20px 0px 20px 0px;
-    text-align: left;
-    width: auto;
-    max-width: 100%;
-    justify-content: flex-start;
 }
 
-.bottom-div h3 {
-    color: #FFFFFF;
-    font-family: Lato;
-    font-size: 44px;
-    font-weight: 900;
-    height: auto;
-    line-height: 1.2;
-    margin: 0px 0px 15px 0px;
-    text-align: left;
-    width: auto;
-    max-width: 100%;
-    justify-content: flex-start;
+#left_h3 {
+    margin-left: 100px;
 }
 
-.bottom-div p {
-    color: rgba(255, 255, 255, 0.81);
-    font-family: Lato;
-    font-size: 20px;
-    font-weight: 700;
-    height: auto;
-    line-height: 1.1;
-    margin: 0px 0px 10px 0px;
-    text-align: left;
-    width: auto;
-    max-width: 100%;
-    justify-content: flex-start;
+#left_p {
+    margin-left: 500px;
+}
+
+#left_a{
+    margin-left: 600px;
+}
+
+.three {
+    margin-top: 100px;
+    height: 1550px;
 }
 
 .three-div1 h2 {
     color: rgba(17, 17, 17, 0.6);
-    font-family: Lato;
     font-size: 48px;
-    font-weight: 700;
-    height: auto;
     line-height: 1.2;
     margin: 0px 0px 15px 0px;
     text-align: center;
-    width: auto;
-    max-width: 100%;
-    justify-content: center;
 }
 
 .three-div1 h3 {
-    color: #111111;
-    font-family: Lato;
     font-size: 76px;
-    font-weight: 900;
-    height: auto;
     line-height: 1;
     margin: 0px 0px 0px 0px;
     padding: 0px 0px 20px 0px;
-    text-align: left;
-    width: auto;
-    max-width: 100%;
-    justify-content: flex-start;
+    text-align: center;
 }
 
 .three-div1 p {
-    color: #333333;
-    flex: none;
-    font-family: Lato;
     font-size: 22px;
-    font-weight: 400;
-    height: auto;
     line-height: 1.4;
-    padding: 0px 0px 0px;
-    text-align: left;
-    width: 100%;
-    max-width: 100%;
-    justify-content: flex-start;
+    text-align: center;
 }
 
 .four {
     align-content: center;
     align-items: center;
     background: linear-gradient(90deg, #00041e, #000946);
-    flex-direction: column;
-    flex-wrap: nowrap;
     height: 900px;
-    justify-content: flex-start;
     padding: 140px 0px 100px 0px;
     width: 100%;
     max-width: 100%;
@@ -466,46 +248,25 @@ header {
 
 .four h2 {
     color: rgba(255, 255, 255, 0.6);
-    font-family: Lato;
     font-size: 48px;
-    font-weight: 700;
-    height: auto;
     line-height: 1.2;
     margin: 0px 0px 15px 0px;
     text-align: center;
-    width: auto;
-    max-width: 100%;
-    justify-content: center;
 }
 
 .four h3 {
     color: #FFFFFF;
-    font-family: Lato;
     font-size: 76px;
-    font-weight: 900;
-    height: auto;
     line-height: 1.1;
     margin: 0px 0px 0px 0px;
     padding: 0px 0px 20px 0px;
-    text-align: left;
-    width: auto;
-    max-width: 100%;
-    justify-content: flex-start;
 }
 
 .four p {
     color: #FFFFFF;
-    flex: none;
-    font-family: Lato;
     font-size: 22px;
-    font-weight: 400;
-    height: auto;
     line-height: 1.5;
-    padding: 0px 0px 0px;
-    text-align: left;
     width: 658px;
-    max-width: 100%;
-    justify-content: flex-start;
 }
 
 .four .left-div h3, .four .center-div h3, .four .right-div h3 {
@@ -517,65 +278,32 @@ header {
 }
 
 .five {
-    align-content: center;
-    align-items: center;
     background: #fafafa;
     border-radius: 40px;
-    flex: none;
-    flex-direction: column;
-    flex-wrap: nowrap;
-    height: auto;
-    justify-content: center;
     margin: 80px 40px 0px;
     opacity: 1;
     overflow-x: hidden;
     overflow-y: hidden;
     padding: 120px 0px 0px 0px;
-    width: 1200px;
-    max-width: calc(100% - 80px);
 }
 
 .five h2 {
-    border-radius: 0px;
-    color: #111111;
-    font-family: Lato;
     font-size: 44px;
-    font-weight: 900;
-    height: auto;
-    letter-spacing: 0em;
     line-height: 1.2;
     margin: 0px 0px 20px 0px;
     opacity: 1;
-    padding: 0 0 0 0;
     text-align: center;
-    z-index: 1;
-    max-width: 100%;
-    justify-content: center;
 }
 
 .five p{
-    color: #333333;
-    font-family: Lato;
     font-size: 20px;
-    font-weight: 400;
     height: 56px;
-    letter-spacing: 0em;
     line-height: 1.4;
-    opacity: 1;
-    padding: 0px 20px 0px;
     text-align: center;
-    width: 100%;
-    max-width: 100%;
-    justify-content: center;
 }
 
 footer {
-    background: #FFFFFF;
-    border-radius: 0;
-    overflow-y: auto;
     padding: 80px 0px 0px 0px;
-    width: 100%;
-    max-width: 100%;
 }
 
 .left-footer {

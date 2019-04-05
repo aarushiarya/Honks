@@ -375,6 +375,7 @@ footer {
     font-weight: 400;
     height: auto;
     line-height: 1.5;
+    margin: 0px 0px 100px 200px;
     padding: 0px 0px 0px;
     text-align: center;
     width: 620px;
@@ -475,6 +476,8 @@ footer {
 }
 
 .about-three-div1 div {
+    display: block;
+    float: left;
     align-content: flex-start;
     align-items: flex-start;
     flex: none;
@@ -514,6 +517,12 @@ footer {
     justify-content: flex-start;
 }
 
+.about-three-div1 img {
+    display: block;
+    float: right;
+    margin: 120px 200px 100px 0px;
+}
+
 #div1-otherp {
     color: #FFFFFF;
     font-family: Lato;
@@ -528,6 +537,8 @@ footer {
 }
 
 .about-three-div2 {
+    display: block;
+    float: left;
     align-content: center;
     align-items: center;
     background: rgba(17, 17, 17, 0.5);
@@ -607,7 +618,7 @@ footer {
     flex: none;
     flex-direction: column;
     flex-wrap: nowrap;
-    height: auto;
+    height: 650px;
     justify-content: center;
     margin: 40px 0px 0px 20px;
     overflow-x: hidden;
@@ -671,6 +682,8 @@ footer {
 }
 
 .about-three-div4 {
+    display: block;
+    float: right;
     align-content: center;
     align-items: center;
     background: rgba(17, 17, 17, 0.5);
@@ -742,6 +755,8 @@ footer {
 }
 
 .about-three-div5 {
+    display: block;
+    float: left;
     align-content: center;
     align-items: center;
     background: rgba(17, 17, 17, 0.5);
@@ -811,4 +826,8 @@ footer {
     width: auto;
     max-width: 100%;
     justify-content: flex-start;
+}
+
+.div-image {
+    margin: 50px 0px 50px 110px; 
 }

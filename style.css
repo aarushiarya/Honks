@@ -76,7 +76,7 @@ header {
     font-size: 26px;
     height: auto;
     line-height: 1.4;
-    margin-left: 300px;
+    text-align: center;
 }
 
 .one-div1 h2 {
@@ -92,7 +92,7 @@ header {
 }
 
 .one-div1 div {
-    padding: 40px 0px 30px 0px;
+    text-align: center;
 }
 
 .one-div2 {
@@ -123,6 +123,10 @@ header {
     padding: 140px 0px 120px 0px;
     width: 100%;
     max-width: 100%;
+}
+
+.two div {
+    text-align: center;
 }
 
 .two h2 {
@@ -197,18 +201,6 @@ header {
     font-size: 16px;
 }
 
-#left_h3 {
-    margin-left: 100px;
-}
-
-#left_p {
-    margin-left: 500px;
-}
-
-#left_a{
-    margin-left: 600px;
-}
-
 .three {
     margin-top: 100px;
     height: 1550px;
@@ -246,6 +238,10 @@ header {
     max-width: 100%;
 }
 
+.four div {
+    text-align: center;
+}
+
 .four h2 {
     color: rgba(255, 255, 255, 0.6);
     font-size: 48px;
@@ -263,6 +259,7 @@ header {
 }
 
 .four p {
+    margin-left: 400px;
     color: #FFFFFF;
     font-size: 22px;
     line-height: 1.5;
@@ -270,11 +267,11 @@ header {
 }
 
 .four .left-div h3, .four .center-div h3, .four .right-div h3 {
-    font-size: 30px;
+    font-size: 20px;
 }
 
 .four .left-div p, .four .center-div p, .four .right-div p {
-    font-size: 16px;
+    font-size: 10px;
 }
 
 .five {
@@ -348,7 +345,7 @@ footer {
     font-weight: 700;
     height: auto;
     line-height: 1.2;
-    margin: 0px 0px 0px 0px;
+    margin: 0px 0px 0px 70px;
     text-align: center;
     width: auto;
     max-width: 100%;
@@ -358,11 +355,11 @@ footer {
 .about-one-div1 h3 {
     color: #FFFFFF;
     font-family: Lato;
-    font-size: 182px;
+    font-size: 82px;
     font-weight: 900;
     height: auto;
     line-height: 1.1;
-    margin: 0px 0px 0px 0px;
+    margin: 0px 0px 0px 300px;
     padding: 0px 0px 20px 0px;
     text-align: left;
     width: auto;
@@ -411,7 +408,7 @@ footer {
     flex-direction: column;
     flex-wrap: nowrap;
     justify-content: center;
-    margin: 0px 40px 0px;
+    margin: 0px 40px 0px 350px;
     padding: 30px 0px 0px;
     width: 1200px;
     max-width: calc(100% - 80px);

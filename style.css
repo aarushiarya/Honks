@@ -312,6 +312,7 @@ footer {
     float: left;
 }
 
+/*about.html*/
 .about-one {
     align-content: flex-start;
     align-items: flex-start;
@@ -831,3 +832,133 @@ footer {
 .div-image {
     margin: 50px 0px 50px 110px; 
 }
+
+.career-div1 {
+    text-align: center;
+    margin: 200px 0px 100px 0px;
+}
+
+.career-div1 h2 {
+    display: block;
+    margin: 0 0 16px;
+    line-height: 26px;
+    font-size: 10px;
+    font-weight: 600;
+    letter-spacing: 4px;
+    text-transform: uppercase;
+    text-align: center;
+    color: #0c0c0c;
+}
+
+.career-div1 h3 {
+    margin: 0 -75px 15px;
+    line-height: 80px;
+    font-size: 70px;
+    letter-spacing: -1.2px;
+}
+
+.career-div1 p {
+    margin: 0 0 14px;
+    line-height: 26px;
+    font-size: 16px;
+}
+
+/*Learn.html*/
+.learn-div1 {
+    text-align: center;
+    margin: 200px 0px 100px 0px;
+}
+
+.learn-div1 h2 {
+    display: block;
+    margin: 0 0 16px;
+    line-height: 26px;
+    font-size: 10px;
+    font-weight: 600;
+    letter-spacing: 4px;
+    text-transform: uppercase;
+    text-align: center;
+    color: #0c0c0c;
+}
+
+.learn-div1 h3 {
+    margin: 0 -75px 15px;
+    line-height: 80px;
+    font-size: 70px;
+    letter-spacing: -1.2px;
+}
+
+.learn-div1 p, .learn-div3 p {
+    margin: 0 0 14px;
+    line-height: 26px;
+    font-size: 16px;
+}
+
+.learn-div3 {
+    margin: 0px 100px 50px 400px;
+    max-width: 670px;
+}
+
+.learn-div3 h3 {
+    line-height: 42px;
+    font-size: 32px;
+}
+
+/*Career.html*/
+
+.career-sec {
+    display: block;
+    float: right;
+    align-content: center;
+    align-items: center;
+    background: rgba(0,0,0,0.0);
+    flex: none;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    height: auto;
+    justify-content: center;
+    margin: 60px 0px 40px 0px;
+    width: 500px;
+    max-width: 100%;
+}
+
+.career-sec p {
+    color: #FFFFFF;
+    font-family: Lato;
+    font-size: 22px;
+    font-style: italic;
+    font-weight: 400;
+    height: auto;
+    line-height: 1.4;
+    text-align: center;
+    width: auto;
+    max-width: 100%;
+    justify-content: center;
+}
+
+.career-sec #otherp {
+    color: #aaaaaa;
+    font-family: Lato;
+    font-size: 18px;
+    font-style: italic;
+    font-weight: 400;
+    height: auto;
+    margin: 20px 0px 0px 0px;
+    text-align: center;
+    width: auto;
+    max-width: 100%;
+    justify-content: center;
+}
+
+.image {
+    border-radius: 6px;
+    flex: none;
+    height: 500px;
+    margin: 0px 0px -60px -300px;
+    opacity: 1;
+    width: 800px;
+    max-width: 100%;
+    display: block;
+    float: left;
+}
+

@@ -833,36 +833,6 @@ footer {
     margin: 50px 0px 50px 110px; 
 }
 
-.career-div1 {
-    text-align: center;
-    margin: 200px 0px 100px 0px;
-}
-
-.career-div1 h2 {
-    display: block;
-    margin: 0 0 16px;
-    line-height: 26px;
-    font-size: 10px;
-    font-weight: 600;
-    letter-spacing: 4px;
-    text-transform: uppercase;
-    text-align: center;
-    color: #0c0c0c;
-}
-
-.career-div1 h3 {
-    margin: 0 -75px 15px;
-    line-height: 80px;
-    font-size: 70px;
-    letter-spacing: -1.2px;
-}
-
-.career-div1 p {
-    margin: 0 0 14px;
-    line-height: 26px;
-    font-size: 16px;
-}
-
 /*Learn.html*/
 .learn-div1 {
     text-align: center;
@@ -905,6 +875,38 @@ footer {
 }
 
 /*Career.html*/
+
+.career-div1 {
+    text-align: center;
+    margin: 200px 0px 100px 0px;
+}
+
+.career-div1 h2 {
+    color: #FFFFFF;
+    display: block;
+    margin: 0 0 16px;
+    line-height: 26px;
+    font-size: 10px;
+    font-weight: 600;
+    letter-spacing: 4px;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.career-div1 h3 {
+    color: #FFFFFF;
+    margin: 0 -75px 15px;
+    line-height: 80px;
+    font-size: 70px;
+    letter-spacing: -1.2px;
+}
+
+.career-div1 p {
+    color: #FFFFFF;
+    margin: 0 0 14px;
+    line-height: 26px;
+    font-size: 16px;
+}
 
 .career-sec {
     display: block;
@@ -962,3 +964,23 @@ footer {
     float: left;
 }
 
+.career-three {
+    margin: 700px 0px 0px 100px;
+}
+
+.career-three h3 {
+    color: #FFFFFF;
+}
+
+.career-three p {
+    color: #aaaaaa;
+}
+
+.career-three-div2{
+    margin: 100px 0px 0px 100px;
+}
+
+.career-three-div3 .bottom-div {
+    margin-top: 200px;
+    text-align: center;
+}
